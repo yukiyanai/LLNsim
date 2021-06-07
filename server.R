@@ -4,8 +4,7 @@
 
 
 pacman::p_load(shiny,
-               tidyverse,
-               thematic)
+               tidyverse)
 if (.Platform$OS.type == "windows") { 
     if (require(fontregisterer)) {
         my_font <- "Yu Gothic"
